@@ -1,0 +1,189 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;    
+
+}
+
+span{
+    color: #0088a9;
+}
+
+section h1{
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 150px;
+
+}
+/* Navbar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px ; 
+    background-color: #24252A;
+    
+
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.nav-links li a:hover{
+    color:#0088a9
+}
+
+.nav-links{
+    margin: 0;
+}
+
+/* Intro */
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+
+#intro{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./images/reshot-illustration-software-engineer-developing-an-app-CVUTPGXM57.png") ;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+#intro h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#intro .btn{
+    padding: 8px 15px;
+    color: #0088a9;
+    background-color:transparent ;
+    border: 2px solid black;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s ease 0s;
+    transition-property:  background-color, color;
+    font-weight: 600;
+
+}
+
+#intro .btn:hover{
+    color: white;
+    background-color: #0088a9;   
+}
+
+/* Projects */
+
+.projects-items{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.project {
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./images/david-van-dijk-3LTht2nxd34-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #f1f1f1;
+    margin: 5% 15%;
+    border: ghostwhite ;
+    border-radius: 15px;
+  
+  }
+
+
+
+
+
+/* Skills */
+ .row{
+    margin-left: 15%;
+    margin-right: 15%;  
+ }
+
+ .thumbnail{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.thumbnail img{
+    height: 200px;
+}
+
+.skill-items{
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    justify-content: space-between;
+    margin-bottom: 200px;
+} 
+
+
+/* About */
+#about{
+    margin: 0 15%;
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+
+/* Contact */
+#contact{
+    margin: 0 15%;
+    text-align: center;
+    
+}
+
+/* Footer */
+footer{
+    background-color: #24252A;
+    color: #0088a9;
+    text-align: end;
+    height: 20px;
+}
+
+footer h6{
+    padding: 5px;
+}
+
+
